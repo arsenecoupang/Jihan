@@ -8,7 +8,7 @@ import { BackgroundRippleEffect } from "@/components/ui/BackgroundRippleEffect";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col items-center relative overflow-hidden">
+    <div className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
       <BackgroundRippleEffect rows={10} cellSize={60} />
       <Navbar />
       <Hero />
