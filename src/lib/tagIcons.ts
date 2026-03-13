@@ -15,7 +15,7 @@ export const tagIconMap: Record<string, string> = {
 
   // Styling
   "Tailwind CSS": `${BASE}/tailwindcss/tailwindcss-original.svg`,
-  "Styled Component": `${BASE}/css3/css3-original.svg`,
+  "Styled Component": `${BASE}/styledcomponents/styledcomponents-original.svg`,
   "Pico CSS": `${BASE}/css3/css3-original.svg`,
   CSS: `${BASE}/css3/css3-original.svg`,
   HTML: `${BASE}/html5/html5-original.svg`,
