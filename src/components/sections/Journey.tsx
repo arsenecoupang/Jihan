@@ -3,6 +3,7 @@ import { useRef } from "react";
 import TimelineSection from "@/components/sections/Timeline";
 import ProjectCard from "@/components/shared/ProjectCard";
 import TimelineCard from "@/components/shared/TimelineCard";
+import { FlipWords } from "../ui/flip-words";
 
 function Journey() {
   const timelineRef = useRef<HTMLDivElement>(null);
@@ -18,10 +19,11 @@ function Journey() {
     restDelta: 0.001,
   });
 
+  const words = ["Career ☘️", "Journey 🎓"];
   return (
     <section id="about" className="max-w-3xl mx-auto px-4 py-24">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
-        About My Journey 🎓
+        About My <FlipWords words={words} />
       </h2>
 
       <div ref={timelineRef} className="relative">
