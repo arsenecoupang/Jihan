@@ -22,7 +22,7 @@ function Journey() {
   const words = ["Career ☘️", "Journey 🎓"];
   return (
     <section id="about" className="max-w-3xl mx-auto px-4 py-24">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-20 text-muted-foreground">
         About My <FlipWords words={words} />
       </h2>
 
