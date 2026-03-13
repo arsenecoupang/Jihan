@@ -1,0 +1,29 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04130B"/>
+      <stop offset="0.55" stop-color="#0B2A1D"/>
+      <stop offset="1" stop-color="#0F3A2B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="124" y1="462" x2="1078" y2="168" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1030" cy="120" r="180" fill="#4ADE80" opacity="0.18" filter="url(#blur)"/>
+  <circle cx="180" cy="560" r="220" fill="#22D3EE" opacity="0.16" filter="url(#blur)"/>
+
+  <rect x="96" y="120" width="86" height="86" rx="22" fill="url(#accent)" opacity="0.22"/>
+  <text x="139" y="167" text-anchor="middle" fill="url(#accent)" font-family="Inter, Pretendard, Arial, sans-serif" font-size="52" font-weight="800">J</text>
+
+  <text x="96" y="292" fill="#E5F4EE" font-family="Inter, Pretendard, Arial, sans-serif" font-size="66" font-weight="800">Jihan Lee</text>
+  <text x="96" y="356" fill="#A7C6B8" font-family="Inter, Pretendard, Arial, sans-serif" font-size="38" font-weight="500">Frontend Developer Portfolio</text>
+
+  <rect x="96" y="412" width="1008" height="2" fill="url(#accent)" opacity="0.55"/>
+  <text x="96" y="474" fill="#D7EEE4" font-family="Inter, Pretendard, Arial, sans-serif" font-size="30" font-weight="500">React  TypeScript  Vite  Tailwind</text>
+</svg>
