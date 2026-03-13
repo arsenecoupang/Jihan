@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="fixed left-1/2 -translate-x-1/2 min-w-[70svw] z-50 top-10 glass-navbar rounded-2xl">
+    <nav className="fixed inset-x-0 mx-auto w-[min(70rem,92vw)] z-50 top-10 glass-navbar rounded-2xl backdrop-blur-2xl backdrop-saturate-200">
       <div className="max-w-5xl mx-auto flex items-center justify-between px-6 h-14">
         <a href="#" className="flex items-center gap-1">
           <svg width="32" height="32" viewBox="0 0 32 32" className="shrink-0">

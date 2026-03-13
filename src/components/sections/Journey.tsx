@@ -20,16 +20,12 @@ function Journey() {
 
   return (
     <section id="about" className="max-w-3xl mx-auto px-4 py-24">
-      {/* 상단 타이틀 */}
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-20">
         About My Journey 🎓
       </h2>
 
-      {/* 타임라인 컨테이너: 단일 수직 선 */}
       <div ref={timelineRef} className="relative">
-        {/* 배경 트랙 (항상 보임) */}
         <div className="absolute left-8 md:left-12 top-2 bottom-2 w-0.5 -translate-x-1/2 bg-white/10 rounded-full" />
-        {/* 스크롤 진행 선: overflow-hidden 컨테이너 + scaleY(GPU-only, reflow 없음) */}
         <div className="absolute left-8 md:left-12 top-2 bottom-2 w-0.5 -translate-x-1/2 overflow-hidden rounded-full">
           <motion.div
             style={{ scaleY, originY: 0 }}

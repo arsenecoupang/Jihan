@@ -5,13 +5,12 @@ import Hero from "@/components/sections/Hero";
 import Journey from "@/components/sections/Journey";
 import Projects from "@/components/sections/Projects";
 import { BackgroundRippleEffect } from "@/components/ui/BackgroundRippleEffect";
-import { createPortal } from "react-dom";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background text-foreground flex flex-col items-center relative">
       <BackgroundRippleEffect rows={10} cellSize={60} />
-      {createPortal(<Navbar />, document.body)}
+      <Navbar />
       <Hero />
       <Journey />
       <Projects />
