@@ -42,7 +42,7 @@ function Journey() {
             bullets={[
               "Framer Motion으로 스크롤 기반 타임라인 인터랙션 구현",
               "Shadcn/ui + Tailwind CSS로 UI 구성",
-              "MCP(Context7)로 최신 라이브러리 문서 참고하며 개발(제가 animation은 아직 잘 모릅니다... 그래서 이부분은 ai한테 구현을 맡겼습니다. 어떻게 구현하는 지는 웹사이트 검색을 통해 알아본 후 프롬포트를 작성하였습니다.)",
+              "MCP(Context7)로 최신 라이브러리 문서 참고하며 개발",
             ]}
             tags={[
               "React",

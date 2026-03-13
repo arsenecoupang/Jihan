@@ -1,9 +1,7 @@
 import { ImageResponse } from "@vercel/og";
 
-export const config = { runtime: "edge" };
-
-export default function handler() {
-  return new ImageResponse(
+export default async function handler(_req: Request) {
+  const imageResponse = new ImageResponse(
     <div
       style={{
         width: "1200px",
@@ -135,4 +133,12 @@ export default function handler() {
     </div>,
     { width: 1200, height: 630 },
   );
+
+  const buffer = Buffer.from(await imageResponse.arrayBuffer());
+  return new Response(buffer, {
+    headers: {
+      "Content-Type": "image/png",
+      "Cache-Control": "public, max-age=86400",
+    },
+  });
 }
