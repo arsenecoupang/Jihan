@@ -10,11 +10,11 @@
     "lint": "biome lint --write",
     "format": "biome format --write",
     "check": "biome check --write",
-    "reporter": "biome check --reporter=summary",
-    "generate:og": "node scripts/generate-og.mjs"
+    "reporter": "biome check --reporter=summary"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
+    "@vercel/og": "^0.11.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.577.0",
@@ -27,7 +27,6 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.6",
-    "@resvg/resvg-js": "^2.6.2",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
